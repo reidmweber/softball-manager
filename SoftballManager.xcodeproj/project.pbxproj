@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28C9B2052A1809E000DAE6C9 /* SoftballManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C9B2042A1809E000DAE6C9 /* SoftballManagerApp.swift */; };
+		28C9B2072A1809E000DAE6C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C9B2062A1809E000DAE6C9 /* ContentView.swift */; };
+		28C9B2092A1809E100DAE6C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28C9B2082A1809E100DAE6C9 /* Assets.xcassets */; };
+		28C9B20D2A1809E100DAE6C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28C9B20C2A1809E100DAE6C9 /* Preview Assets.xcassets */; };
+		28C9B2172A1809E200DAE6C9 /* SoftballManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C9B2162A1809E200DAE6C9 /* SoftballManagerTests.swift */; };
+		28C9B2212A1809E200DAE6C9 /* SoftballManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C9B2202A1809E200DAE6C9 /* SoftballManagerUITests.swift */; };
+		28C9B2232A1809E200DAE6C9 /* SoftballManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C9B2222A1809E200DAE6C9 /* SoftballManagerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28C9B2132A1809E200DAE6C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C9B1F92A1809E000DAE6C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28C9B2002A1809E000DAE6C9;
+			remoteInfo = SoftballManager;
+		};
+		28C9B21D2A1809E200DAE6C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C9B1F92A1809E000DAE6C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28C9B2002A1809E000DAE6C9;
+			remoteInfo = SoftballManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28C9B2012A1809E000DAE6C9 /* SoftballManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoftballManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C9B2042A1809E000DAE6C9 /* SoftballManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftballManagerApp.swift; sourceTree = "<group>"; };
+		28C9B2062A1809E000DAE6C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		28C9B2082A1809E100DAE6C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28C9B20A2A1809E100DAE6C9 /* SoftballManager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SoftballManager.entitlements; sourceTree = "<group>"; };
+		28C9B20C2A1809E100DAE6C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		28C9B2122A1809E200DAE6C9 /* SoftballManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoftballManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C9B2162A1809E200DAE6C9 /* SoftballManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftballManagerTests.swift; sourceTree = "<group>"; };
+		28C9B21C2A1809E200DAE6C9 /* SoftballManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoftballManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C9B2202A1809E200DAE6C9 /* SoftballManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftballManagerUITests.swift; sourceTree = "<group>"; };
+		28C9B2222A1809E200DAE6C9 /* SoftballManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftballManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28C9B1FE2A1809E000DAE6C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C9B20F2A1809E200DAE6C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C9B2192A1809E200DAE6C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28C9B1F82A1809E000DAE6C9 = {
+			isa = PBXGroup;
+			children = (
+				28C9B2032A1809E000DAE6C9 /* SoftballManager */,
+				28C9B2152A1809E200DAE6C9 /* SoftballManagerTests */,
+				28C9B21F2A1809E200DAE6C9 /* SoftballManagerUITests */,
+				28C9B2022A1809E000DAE6C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28C9B2022A1809E000DAE6C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28C9B2012A1809E000DAE6C9 /* SoftballManager.app */,
+				28C9B2122A1809E200DAE6C9 /* SoftballManagerTests.xctest */,
+				28C9B21C2A1809E200DAE6C9 /* SoftballManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28C9B2032A1809E000DAE6C9 /* SoftballManager */ = {
+			isa = PBXGroup;
+			children = (
+				28C9B2042A1809E000DAE6C9 /* SoftballManagerApp.swift */,
+				28C9B2062A1809E000DAE6C9 /* ContentView.swift */,
+				28C9B2082A1809E100DAE6C9 /* Assets.xcassets */,
+				28C9B20A2A1809E100DAE6C9 /* SoftballManager.entitlements */,
+				28C9B20B2A1809E100DAE6C9 /* Preview Content */,
+			);
+			path = SoftballManager;
+			sourceTree = "<group>";
+		};
+		28C9B20B2A1809E100DAE6C9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				28C9B20C2A1809E100DAE6C9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		28C9B2152A1809E200DAE6C9 /* SoftballManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				28C9B2162A1809E200DAE6C9 /* SoftballManagerTests.swift */,
+			);
+			path = SoftballManagerTests;
+			sourceTree = "<group>";
+		};
+		28C9B21F2A1809E200DAE6C9 /* SoftballManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28C9B2202A1809E200DAE6C9 /* SoftballManagerUITests.swift */,
+				28C9B2222A1809E200DAE6C9 /* SoftballManagerUITestsLaunchTests.swift */,
+			);
+			path = SoftballManagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28C9B2002A1809E000DAE6C9 /* SoftballManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28C9B2262A1809E200DAE6C9 /* Build configuration list for PBXNativeTarget "SoftballManager" */;
+			buildPhases = (
+				28C9B1FD2A1809E000DAE6C9 /* Sources */,
+				28C9B1FE2A1809E000DAE6C9 /* Frameworks */,
+				28C9B1FF2A1809E000DAE6C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoftballManager;
+			productName = SoftballManager;
+			productReference = 28C9B2012A1809E000DAE6C9 /* SoftballManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28C9B2112A1809E200DAE6C9 /* SoftballManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28C9B2292A1809E200DAE6C9 /* Build configuration list for PBXNativeTarget "SoftballManagerTests" */;
+			buildPhases = (
+				28C9B20E2A1809E200DAE6C9 /* Sources */,
+				28C9B20F2A1809E200DAE6C9 /* Frameworks */,
+				28C9B2102A1809E200DAE6C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28C9B2142A1809E200DAE6C9 /* PBXTargetDependency */,
+			);
+			name = SoftballManagerTests;
+			productName = SoftballManagerTests;
+			productReference = 28C9B2122A1809E200DAE6C9 /* SoftballManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28C9B21B2A1809E200DAE6C9 /* SoftballManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28C9B22C2A1809E200DAE6C9 /* Build configuration list for PBXNativeTarget "SoftballManagerUITests" */;
+			buildPhases = (
+				28C9B2182A1809E200DAE6C9 /* Sources */,
+				28C9B2192A1809E200DAE6C9 /* Frameworks */,
+				28C9B21A2A1809E200DAE6C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28C9B21E2A1809E200DAE6C9 /* PBXTargetDependency */,
+			);
+			name = SoftballManagerUITests;
+			productName = SoftballManagerUITests;
+			productReference = 28C9B21C2A1809E200DAE6C9 /* SoftballManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28C9B1F92A1809E000DAE6C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					28C9B2002A1809E000DAE6C9 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					28C9B2112A1809E200DAE6C9 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 28C9B2002A1809E000DAE6C9;
+					};
+					28C9B21B2A1809E200DAE6C9 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 28C9B2002A1809E000DAE6C9;
+					};
+				};
+			};
+			buildConfigurationList = 28C9B1FC2A1809E000DAE6C9 /* Build configuration list for PBXProject "SoftballManager" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28C9B1F82A1809E000DAE6C9;
+			productRefGroup = 28C9B2022A1809E000DAE6C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28C9B2002A1809E000DAE6C9 /* SoftballManager */,
+				28C9B2112A1809E200DAE6C9 /* SoftballManagerTests */,
+				28C9B21B2A1809E200DAE6C9 /* SoftballManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28C9B1FF2A1809E000DAE6C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C9B20D2A1809E100DAE6C9 /* Preview Assets.xcassets in Resources */,
+				28C9B2092A1809E100DAE6C9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C9B2102A1809E200DAE6C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C9B21A2A1809E200DAE6C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28C9B1FD2A1809E000DAE6C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C9B2072A1809E000DAE6C9 /* ContentView.swift in Sources */,
+				28C9B2052A1809E000DAE6C9 /* SoftballManagerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C9B20E2A1809E200DAE6C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C9B2172A1809E200DAE6C9 /* SoftballManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C9B2182A1809E200DAE6C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C9B2212A1809E200DAE6C9 /* SoftballManagerUITests.swift in Sources */,
+				28C9B2232A1809E200DAE6C9 /* SoftballManagerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28C9B2142A1809E200DAE6C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28C9B2002A1809E000DAE6C9 /* SoftballManager */;
+			targetProxy = 28C9B2132A1809E200DAE6C9 /* PBXContainerItemProxy */;
+		};
+		28C9B21E2A1809E200DAE6C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28C9B2002A1809E000DAE6C9 /* SoftballManager */;
+			targetProxy = 28C9B21D2A1809E200DAE6C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		28C9B2242A1809E200DAE6C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28C9B2252A1809E200DAE6C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		28C9B2272A1809E200DAE6C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SoftballManager/SoftballManager.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SoftballManager/Preview Content\"";
+				DEVELOPMENT_TEAM = KFYQYC6Q3Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reidweber.SoftballManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28C9B2282A1809E200DAE6C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SoftballManager/SoftballManager.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SoftballManager/Preview Content\"";
+				DEVELOPMENT_TEAM = KFYQYC6Q3Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reidweber.SoftballManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		28C9B22A2A1809E200DAE6C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KFYQYC6Q3Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reidweber.SoftballManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoftballManager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SoftballManager";
+			};
+			name = Debug;
+		};
+		28C9B22B2A1809E200DAE6C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KFYQYC6Q3Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reidweber.SoftballManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoftballManager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SoftballManager";
+			};
+			name = Release;
+		};
+		28C9B22D2A1809E200DAE6C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KFYQYC6Q3Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reidweber.SoftballManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SoftballManager;
+			};
+			name = Debug;
+		};
+		28C9B22E2A1809E200DAE6C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KFYQYC6Q3Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reidweber.SoftballManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SoftballManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28C9B1FC2A1809E000DAE6C9 /* Build configuration list for PBXProject "SoftballManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C9B2242A1809E200DAE6C9 /* Debug */,
+				28C9B2252A1809E200DAE6C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28C9B2262A1809E200DAE6C9 /* Build configuration list for PBXNativeTarget "SoftballManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C9B2272A1809E200DAE6C9 /* Debug */,
+				28C9B2282A1809E200DAE6C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28C9B2292A1809E200DAE6C9 /* Build configuration list for PBXNativeTarget "SoftballManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C9B22A2A1809E200DAE6C9 /* Debug */,
+				28C9B22B2A1809E200DAE6C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28C9B22C2A1809E200DAE6C9 /* Build configuration list for PBXNativeTarget "SoftballManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C9B22D2A1809E200DAE6C9 /* Debug */,
+				28C9B22E2A1809E200DAE6C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28C9B1F92A1809E000DAE6C9 /* Project object */;
+}
