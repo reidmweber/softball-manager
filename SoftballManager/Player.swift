@@ -8,9 +8,12 @@
 import Foundation
 
 struct Player: Identifiable {
-    var id = UUID()
-    var name: String
-    var position: String
-    var battingAverage: Double
+ var id = UUID()
+ var jerseyNumber: Int
+ var email: String
+ var firstName: String
+ var lastName: String
+ var preferredPosition: String
+ var battingAverage: Double
 }
 
