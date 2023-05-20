@@ -20,17 +20,20 @@ class GameManager: ObservableObject {
 
     func addEvent(_ event: Event) {
         events.append(event)
+        saveEvents()
     }
 
     func removeEvent(_ event: Event) {
         if let index = events.firstIndex(where: { $0.id == event.id }) {
             events.remove(at: index)
+            saveEvents()
         }
     }
 
     func updateEvent(_ event: Event) {
         if let index = events.firstIndex(where: { $0.id == event.id }) {
             events[index] = event
+            saveEvents() 
         }
     }
     

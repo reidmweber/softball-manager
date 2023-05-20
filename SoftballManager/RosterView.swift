@@ -24,7 +24,7 @@ struct RosterView: View {
           }
           .navigationBarTitle("Team Roster")
           .toolbar {
-              ToolbarItem(placement: .bottomBar){
+              ToolbarItem(placement: .navigationBarTrailing){
                   HStack{
                       Button(action: {
                           isShowingPlayerEditView = true
