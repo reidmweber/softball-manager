@@ -15,6 +15,9 @@
 		28C9B2232A1809E200DAE6C9 /* SoftballManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C9B2222A1809E200DAE6C9 /* SoftballManagerUITestsLaunchTests.swift */; };
 		28C9B2302A180C6200DAE6C9 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C9B22F2A180C6200DAE6C9 /* Player.swift */; };
 		28C9B2322A180C7D00DAE6C9 /* RosterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C9B2312A180C7D00DAE6C9 /* RosterView.swift */; };
+		28C9B2342A1814CD00DAE6C9 /* PlayerEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C9B2332A1814CD00DAE6C9 /* PlayerEditView.swift */; };
+		28C9B2362A1818CF00DAE6C9 /* PlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C9B2352A1818CF00DAE6C9 /* PlayerManager.swift */; };
+		28C9B2382A181B4200DAE6C9 /* PlayerRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C9B2372A181B4200DAE6C9 /* PlayerRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		28C9B2222A1809E200DAE6C9 /* SoftballManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftballManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		28C9B22F2A180C6200DAE6C9 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		28C9B2312A180C7D00DAE6C9 /* RosterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RosterView.swift; sourceTree = "<group>"; };
+		28C9B2332A1814CD00DAE6C9 /* PlayerEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerEditView.swift; sourceTree = "<group>"; };
+		28C9B2352A1818CF00DAE6C9 /* PlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerManager.swift; sourceTree = "<group>"; };
+		28C9B2372A181B4200DAE6C9 /* PlayerRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				28C9B20B2A1809E100DAE6C9 /* Preview Content */,
 				28C9B22F2A180C6200DAE6C9 /* Player.swift */,
 				28C9B2312A180C7D00DAE6C9 /* RosterView.swift */,
+				28C9B2332A1814CD00DAE6C9 /* PlayerEditView.swift */,
+				28C9B2352A1818CF00DAE6C9 /* PlayerManager.swift */,
+				28C9B2372A181B4200DAE6C9 /* PlayerRowView.swift */,
 			);
 			path = SoftballManager;
 			sourceTree = "<group>";
@@ -262,7 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28C9B2362A1818CF00DAE6C9 /* PlayerManager.swift in Sources */,
 				28C9B2322A180C7D00DAE6C9 /* RosterView.swift in Sources */,
+				28C9B2382A181B4200DAE6C9 /* PlayerRowView.swift in Sources */,
+				28C9B2342A1814CD00DAE6C9 /* PlayerEditView.swift in Sources */,
 				28C9B2302A180C6200DAE6C9 /* Player.swift in Sources */,
 				28C9B2052A1809E000DAE6C9 /* SoftballManagerApp.swift in Sources */,
 			);

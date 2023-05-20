@@ -9,6 +9,8 @@ import SwiftUI
 
 @main
 struct SoftballManagerApp: App {
+    @StateObject var playerManager = PlayerManager()
+    
     let samplePlayers = [
       Player(jerseyNumber: 1, email: "alex@example.com", firstName: "Alex", lastName: "Smith", preferredPosition: "Pitcher", battingAverage: 0.300),
       Player(jerseyNumber: 2, email: "jamie@example.com", firstName: "Jamie", lastName: "Johnson", preferredPosition: "First Base", battingAverage: 0.275),
@@ -26,7 +28,8 @@ struct SoftballManagerApp: App {
 
     var body: some Scene {
         WindowGroup {
-            RosterView(players: samplePlayers)
+            RosterView()
+                .environmentObject(playerManager)
         }
     }
 }
